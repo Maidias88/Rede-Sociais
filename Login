@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>DevLove</title>
+
+    <link rel="stylesheet"  href="login-style.css">
+
+</head>
+<body>
+    <script src="app/loginApp.js"></script>
+    <header>
+        <nav>
+         <!---   <div class="logo-bar"></div>-->
+            <div class="menu-bar">
+                
+                <ul>
+                    
+                    <li><input type="text" class="login-input" id="E-mail" placeholder="Login"></li>
+                    <li><input type="password" class="login-input" id="password" placeholder="Senha"></li>
+                    <li><input type="submit" id="login-button" value="Entrar" onclick="loginVerification()"></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div id="page-content">
+
+        <aside>
+            <div class="description">
+                <h1>DevLove</h1>
+                <h1>Ajuda você a se conectar a desenvolvedores em buscar de um amor</h1>
+                <img src="LOGO SITE.jpeg" style="height: 400px; width: 600px;" alt=" logo Dev loves">
+                
+            </div>
+        </aside>
+        <main>
+            <section class="signup-section" id="formSignup">
+                <h1>Cadastre-se!</h1>
+                <label>Nome</label>
+                <input type="text" id="sName" class="signup-input">
+                <br>
+                <label>Sobrenome</label>
+                <input type="text" id="sSurName" class="signup-input">
+                <br>
+                <Label>Email</Label>
+                <input type="email" class="signup-input" id="sEmail">
+                <br>
+                <label>Data de Nasc.</label>
+                <input type="date" class="signup-input" id="sDate">
+                <br>
+                <div class="btnForm">
+                    <button type="submit" id="signup-button" onclick="showForm()">Cadastrar</button>
+                </div>
+                
+            </section>
+            <div class="termos">
+
+                <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies.
+                 Você poderá receber notificações por SMS e cancelar isso quando quiser.</p>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <p>DevLove - Site proibido para menores de 18 anos 🔞
+            <br>Todos os direitos reservados © 2022
+            
+        </p>
+        
+
+    </footer>
+</body>
+
+</html>
